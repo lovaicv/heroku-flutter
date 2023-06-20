@@ -119,7 +119,7 @@ fi
 #  cp -R $CACHE_DIR/.pub-cache/* $PUB_CACHE  
 #else
   print "Getting dhttpd to run web service."
-  $BUILD_DIR/dart-sdk/bin/dart pub global activate -sgit https://github.com/diezep/dhttpd.git | indent
+  $BUILD_DIR/dart-sdk/bin/dart pub global activate -sgit https://github.com/kevmoo/dhttpd.git | indent
   
   print "Getting dhtppd to run web service."
   mkdir -p $CACHE_DIR/.pub-cache/
